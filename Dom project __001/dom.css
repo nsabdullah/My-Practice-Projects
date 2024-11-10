@@ -1,48 +1,56 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 430px;
 }
-h1{
+h1 {
   font-size: 50px;
   font-weight: 500;
   text-align: center;
   color: rgb(81, 255, 0);
   height: 100%;
   width: 100%;
-  background: linear-gradient(to top left, lightblue, bisque, hotpink );
+  background: linear-gradient(to top left, lightblue, bisque, hotpink);
 }
-.details-of-cumilla{
-  background: linear-gradient(to top left, lightblue, bisque,aquamarine ,cyan , hotpink );
+.details-of-cumilla {
+  background: linear-gradient(
+    to top left,
+    lightblue,
+    bisque,
+    aquamarine,
+    cyan,
+    hotpink
+  );
   min-height: 1000px;
   height: 100%;
   min-height: 100%;
+  margin: 0;
 }
-.car{ 
-   color: aqua;
-   background-color: black;
-   height: 100%;
-   width: 100%;
-   display: inline-block;
-   font-weight: 300;
-   padding: 7px;
-   border-radius: 10px;
-   border: none;
-   outline: none;
-}
+/* .car {
+  color: aqua;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  font-weight: 300;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+} */
 
-.car h4{
+.details-of-cumilla h4 {
   font-size: 20px;
   display: inline-block;
 }
-.car h5{
+.details-of-cumilla h5 {
   font-size: 17px;
 }
-.car h6{
+.details-of-cumilla h6 {
   font-size: 15px;
-}
+}h1
 
 
 
